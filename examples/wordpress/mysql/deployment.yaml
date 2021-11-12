@@ -16,6 +16,7 @@ spec:
         app: mysql
     spec:
       containers:
+      # linux/arm64: https://hub.docker.com/layers/mysql/mysql-server/8.0.19-aarch64/images/sha256-5495664652ac1a8c78c8079bc838483732c12ef59a7f7dbed21adbade33fa1ea
       - image: mysql/mysql-server@sha256:5495664652ac1a8c78c8079bc838483732c12ef59a7f7dbed21adbade33fa1ea
         name: mysql
         env:
